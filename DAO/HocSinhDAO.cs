@@ -50,7 +50,7 @@ namespace DAO
         {
             try
             {
-                string sTruyVan = string.Format("update tblHocSinh set HoTen=N'{0}', IDLop={1}, NgaySinh={2}, GioiTinh=N'{3}', DiaChi=N'{4}', SDT={5} where IDHocSinh={6}",  hs.HoTen,
+                string sTruyVan = string.Format("update tblHocSinh set HoTen=N'{0}', IDLop={1}, NgaySinh='{2}', GioiTinh=N'{3}', DiaChi=N'{4}', SDT='{5}' where IDHocSinh={6}",  hs.HoTen,
                                                                                                                                                                              hs.IDLop,
                                                                                                                                                                              hs.NgaySinh,
                                                                                                                                                                              hs.GioiTinh,

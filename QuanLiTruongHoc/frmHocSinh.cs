@@ -201,6 +201,7 @@ namespace QuanLiTruongHoc
             txtSDT.Text = "";
             txtIDHocSinh.Text = "";
             HienButton();
+            ReadOnly();
         }
 
         private void btnSua_Click(object sender, EventArgs e)
@@ -213,6 +214,7 @@ namespace QuanLiTruongHoc
         private void btnXoa_Click(object sender, EventArgs e)
         {
             lc = LuaChon.Xoa;
+            AnButton();
         }
 
         private void btnTimKiem_Click(object sender, EventArgs e)
