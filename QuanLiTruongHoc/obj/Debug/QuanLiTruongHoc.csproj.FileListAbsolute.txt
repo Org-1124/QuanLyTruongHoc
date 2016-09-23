@@ -1,1 +1,11 @@
 D:\Data\Học tập\Tai lieu\GitHub\QuanLiTruongHoc\QuanLiTruongHoc\bin\Debug\QuanLiTruongHoc.exe.config
+D:\Work_Group\QuanLyTruongHoc\QuanLiTruongHoc\bin\Debug\QuanLiTruongHoc.exe.config
+D:\Work_Group\QuanLyTruongHoc\QuanLiTruongHoc\bin\Debug\QuanLiTruongHoc.exe
+D:\Work_Group\QuanLyTruongHoc\QuanLiTruongHoc\bin\Debug\QuanLiTruongHoc.pdb
+D:\Work_Group\QuanLyTruongHoc\QuanLiTruongHoc\obj\Debug\QuanLiTruongHoc.csprojResolveAssemblyReference.cache
+D:\Work_Group\QuanLyTruongHoc\QuanLiTruongHoc\obj\Debug\QuanLiTruongHoc.Form1.resources
+D:\Work_Group\QuanLyTruongHoc\QuanLiTruongHoc\obj\Debug\QuanLiTruongHoc.frmLop.resources
+D:\Work_Group\QuanLyTruongHoc\QuanLiTruongHoc\obj\Debug\QuanLiTruongHoc.Properties.Resources.resources
+D:\Work_Group\QuanLyTruongHoc\QuanLiTruongHoc\obj\Debug\QuanLiTruongHoc.csproj.GenerateResource.Cache
+D:\Work_Group\QuanLyTruongHoc\QuanLiTruongHoc\obj\Debug\QuanLiTruongHoc.exe
+D:\Work_Group\QuanLyTruongHoc\QuanLiTruongHoc\obj\Debug\QuanLiTruongHoc.pdb
