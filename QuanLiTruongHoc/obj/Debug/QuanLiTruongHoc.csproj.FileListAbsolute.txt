@@ -1,1 +1,2 @@
 D:\Data\Học tập\Tai lieu\GitHub\QuanLiTruongHoc\QuanLiTruongHoc\bin\Debug\QuanLiTruongHoc.exe.config
+C:\Users\DELL PC\Documents\GitHub\QuanLyTruongHoc\QuanLiTruongHoc\bin\Debug\QuanLiTruongHoc.exe.config
