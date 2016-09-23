@@ -1,1 +1,14 @@
 D:\Data\Học tập\Tai lieu\GitHub\QuanLiTruongHoc\QuanLiTruongHoc\bin\Debug\QuanLiTruongHoc.exe.config
+C:\Users\lehai\OneDrive\Documents\GitHub\QuanLyTruongHoc\QuanLiTruongHoc\bin\Debug\QuanLiTruongHoc.exe.config
+C:\Users\lehai\OneDrive\Documents\GitHub\QuanLyTruongHoc\QuanLiTruongHoc\bin\Debug\QuanLiTruongHoc.exe
+C:\Users\lehai\OneDrive\Documents\GitHub\QuanLyTruongHoc\QuanLiTruongHoc\bin\Debug\QuanLiTruongHoc.pdb
+C:\Users\lehai\OneDrive\Documents\GitHub\QuanLyTruongHoc\QuanLiTruongHoc\bin\Debug\DAO.dll
+C:\Users\lehai\OneDrive\Documents\GitHub\QuanLyTruongHoc\QuanLiTruongHoc\bin\Debug\DTO.dll
+C:\Users\lehai\OneDrive\Documents\GitHub\QuanLyTruongHoc\QuanLiTruongHoc\bin\Debug\DAO.pdb
+C:\Users\lehai\OneDrive\Documents\GitHub\QuanLyTruongHoc\QuanLiTruongHoc\bin\Debug\DTO.pdb
+C:\Users\lehai\OneDrive\Documents\GitHub\QuanLyTruongHoc\QuanLiTruongHoc\obj\Debug\QuanLiTruongHoc.csprojResolveAssemblyReference.cache
+C:\Users\lehai\OneDrive\Documents\GitHub\QuanLyTruongHoc\QuanLiTruongHoc\obj\Debug\QuanLiTruongHoc.Form1.resources
+C:\Users\lehai\OneDrive\Documents\GitHub\QuanLyTruongHoc\QuanLiTruongHoc\obj\Debug\QuanLiTruongHoc.Properties.Resources.resources
+C:\Users\lehai\OneDrive\Documents\GitHub\QuanLyTruongHoc\QuanLiTruongHoc\obj\Debug\QuanLiTruongHoc.csproj.GenerateResource.Cache
+C:\Users\lehai\OneDrive\Documents\GitHub\QuanLyTruongHoc\QuanLiTruongHoc\obj\Debug\QuanLiTruongHoc.exe
+C:\Users\lehai\OneDrive\Documents\GitHub\QuanLyTruongHoc\QuanLiTruongHoc\obj\Debug\QuanLiTruongHoc.pdb
