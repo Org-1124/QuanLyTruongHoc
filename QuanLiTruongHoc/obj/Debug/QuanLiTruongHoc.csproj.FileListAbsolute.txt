@@ -1,2 +1,9 @@
 D:\Data\Học tập\Tai lieu\GitHub\QuanLiTruongHoc\QuanLiTruongHoc\bin\Debug\QuanLiTruongHoc.exe.config
 C:\Users\DELL PC\Documents\GitHub\QuanLyTruongHoc\QuanLiTruongHoc\bin\Debug\QuanLiTruongHoc.exe.config
+C:\Users\DELL PC\Documents\GitHub\QuanLyTruongHoc\QuanLiTruongHoc\bin\Debug\QuanLiTruongHoc.exe
+C:\Users\DELL PC\Documents\GitHub\QuanLyTruongHoc\QuanLiTruongHoc\bin\Debug\QuanLiTruongHoc.pdb
+C:\Users\DELL PC\Documents\GitHub\QuanLyTruongHoc\QuanLiTruongHoc\obj\Debug\QuanLiTruongHoc.Form1.resources
+C:\Users\DELL PC\Documents\GitHub\QuanLyTruongHoc\QuanLiTruongHoc\obj\Debug\QuanLiTruongHoc.Properties.Resources.resources
+C:\Users\DELL PC\Documents\GitHub\QuanLyTruongHoc\QuanLiTruongHoc\obj\Debug\QuanLiTruongHoc.csproj.GenerateResource.Cache
+C:\Users\DELL PC\Documents\GitHub\QuanLyTruongHoc\QuanLiTruongHoc\obj\Debug\QuanLiTruongHoc.exe
+C:\Users\DELL PC\Documents\GitHub\QuanLyTruongHoc\QuanLiTruongHoc\obj\Debug\QuanLiTruongHoc.pdb
