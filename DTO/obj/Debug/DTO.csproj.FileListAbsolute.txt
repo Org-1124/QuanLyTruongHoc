@@ -1,0 +1,7 @@
+D:\Work_Group\QuanLyTruongHoc\DTO\bin\Debug\DTO.dll
+D:\Work_Group\QuanLyTruongHoc\DTO\bin\Debug\DTO.pdb
+D:\Work_Group\QuanLyTruongHoc\DTO\bin\Debug\DAO.dll
+D:\Work_Group\QuanLyTruongHoc\DTO\bin\Debug\DAO.pdb
+D:\Work_Group\QuanLyTruongHoc\DTO\obj\Debug\DTO.csprojResolveAssemblyReference.cache
+D:\Work_Group\QuanLyTruongHoc\DTO\obj\Debug\DTO.dll
+D:\Work_Group\QuanLyTruongHoc\DTO\obj\Debug\DTO.pdb

@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.IDLop = new System.Windows.Forms.Label();
             this.TenLop = new System.Windows.Forms.Label();
             this.SoHS = new System.Windows.Forms.Label();
@@ -40,24 +39,16 @@
             this.cboTenLopTruong = new System.Windows.Forms.ComboBox();
             this.cboTenGiaoVien = new System.Windows.Forms.ComboBox();
             this.gbthem = new System.Windows.Forms.GroupBox();
-            this.btnThem = new System.Windows.Forms.Button();
-            this.btnSua = new System.Windows.Forms.Button();
-            this.btnXoa = new System.Windows.Forms.Button();
-            this.btnLuu = new System.Windows.Forms.Button();
-            this.btnTimKiem = new System.Windows.Forms.Button();
             this.txtTimKiem = new System.Windows.Forms.TextBox();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.btnTimKiem = new System.Windows.Forms.Button();
+            this.btnLuu = new System.Windows.Forms.Button();
+            this.btnXoa = new System.Windows.Forms.Button();
+            this.btnSua = new System.Windows.Forms.Button();
+            this.btnThem = new System.Windows.Forms.Button();
+            this.dgvLopHoc = new System.Windows.Forms.DataGridView();
             this.gbthem.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvLopHoc)).BeginInit();
             this.SuspendLayout();
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.dataGridView1.Location = new System.Drawing.Point(0, 198);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(849, 291);
-            this.dataGridView1.TabIndex = 0;
             // 
             // IDLop
             // 
@@ -80,7 +71,7 @@
             // SoHS
             // 
             this.SoHS.AutoSize = true;
-            this.SoHS.Location = new System.Drawing.Point(250, 22);
+            this.SoHS.Location = new System.Drawing.Point(191, 22);
             this.SoHS.Name = "SoHS";
             this.SoHS.Size = new System.Drawing.Size(63, 13);
             this.SoHS.TabIndex = 3;
@@ -89,7 +80,7 @@
             // LopTruong
             // 
             this.LopTruong.AutoSize = true;
-            this.LopTruong.Location = new System.Drawing.Point(250, 77);
+            this.LopTruong.Location = new System.Drawing.Point(192, 77);
             this.LopTruong.Name = "LopTruong";
             this.LopTruong.Size = new System.Drawing.Size(62, 13);
             this.LopTruong.TabIndex = 4;
@@ -98,7 +89,7 @@
             // GiaoVien
             // 
             this.GiaoVien.AutoSize = true;
-            this.GiaoVien.Location = new System.Drawing.Point(573, 22);
+            this.GiaoVien.Location = new System.Drawing.Point(464, 22);
             this.GiaoVien.Name = "GiaoVien";
             this.GiaoVien.Size = new System.Drawing.Size(56, 13);
             this.GiaoVien.TabIndex = 5;
@@ -120,7 +111,7 @@
             // 
             // txtSoLuongHS
             // 
-            this.txtSoLuongHS.Location = new System.Drawing.Point(329, 19);
+            this.txtSoLuongHS.Location = new System.Drawing.Point(260, 19);
             this.txtSoLuongHS.Name = "txtSoLuongHS";
             this.txtSoLuongHS.Size = new System.Drawing.Size(176, 20);
             this.txtSoLuongHS.TabIndex = 8;
@@ -128,7 +119,7 @@
             // cboTenLopTruong
             // 
             this.cboTenLopTruong.FormattingEnabled = true;
-            this.cboTenLopTruong.Location = new System.Drawing.Point(329, 74);
+            this.cboTenLopTruong.Location = new System.Drawing.Point(260, 74);
             this.cboTenLopTruong.Name = "cboTenLopTruong";
             this.cboTenLopTruong.Size = new System.Drawing.Size(176, 21);
             this.cboTenLopTruong.TabIndex = 9;
@@ -136,7 +127,7 @@
             // cboTenGiaoVien
             // 
             this.cboTenGiaoVien.FormattingEnabled = true;
-            this.cboTenGiaoVien.Location = new System.Drawing.Point(635, 19);
+            this.cboTenGiaoVien.Location = new System.Drawing.Point(526, 19);
             this.cboTenGiaoVien.Name = "cboTenGiaoVien";
             this.cboTenGiaoVien.Size = new System.Drawing.Size(176, 21);
             this.cboTenGiaoVien.TabIndex = 10;
@@ -152,67 +143,87 @@
             this.gbthem.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.gbthem.Location = new System.Drawing.Point(0, 134);
             this.gbthem.Name = "gbthem";
-            this.gbthem.Size = new System.Drawing.Size(849, 64);
+            this.gbthem.Size = new System.Drawing.Size(712, 64);
             this.gbthem.TabIndex = 11;
             this.gbthem.TabStop = false;
             // 
-            // btnThem
+            // txtTimKiem
             // 
-            this.btnThem.Location = new System.Drawing.Point(600, 18);
-            this.btnThem.Name = "btnThem";
-            this.btnThem.Size = new System.Drawing.Size(75, 39);
-            this.btnThem.TabIndex = 0;
-            this.btnThem.Text = "Thêm";
-            this.btnThem.UseVisualStyleBackColor = true;
-            // 
-            // btnSua
-            // 
-            this.btnSua.Location = new System.Drawing.Point(681, 18);
-            this.btnSua.Name = "btnSua";
-            this.btnSua.Size = new System.Drawing.Size(75, 39);
-            this.btnSua.TabIndex = 1;
-            this.btnSua.Text = "Sửa";
-            this.btnSua.UseVisualStyleBackColor = true;
-            // 
-            // btnXoa
-            // 
-            this.btnXoa.Location = new System.Drawing.Point(762, 18);
-            this.btnXoa.Name = "btnXoa";
-            this.btnXoa.Size = new System.Drawing.Size(75, 39);
-            this.btnXoa.TabIndex = 2;
-            this.btnXoa.Text = "Xóa";
-            this.btnXoa.UseVisualStyleBackColor = true;
-            // 
-            // btnLuu
-            // 
-            this.btnLuu.Location = new System.Drawing.Point(519, 18);
-            this.btnLuu.Name = "btnLuu";
-            this.btnLuu.Size = new System.Drawing.Size(75, 39);
-            this.btnLuu.TabIndex = 3;
-            this.btnLuu.Text = "Lưu";
-            this.btnLuu.UseVisualStyleBackColor = true;
+            this.txtTimKiem.Location = new System.Drawing.Point(6, 29);
+            this.txtTimKiem.Name = "txtTimKiem";
+            this.txtTimKiem.Size = new System.Drawing.Size(213, 20);
+            this.txtTimKiem.TabIndex = 5;
+            this.txtTimKiem.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtTimKiem_KeyDown);
             // 
             // btnTimKiem
             // 
-            this.btnTimKiem.Location = new System.Drawing.Point(290, 26);
+            this.btnTimKiem.Location = new System.Drawing.Point(239, 26);
             this.btnTimKiem.Name = "btnTimKiem";
             this.btnTimKiem.Size = new System.Drawing.Size(75, 23);
             this.btnTimKiem.TabIndex = 4;
             this.btnTimKiem.Text = "Tìm Kiếm ";
             this.btnTimKiem.UseVisualStyleBackColor = true;
+            this.btnTimKiem.Click += new System.EventHandler(this.btnTimKiem_Click);
             // 
-            // txtTimKiem
+            // btnLuu
             // 
-            this.txtTimKiem.Location = new System.Drawing.Point(69, 26);
-            this.txtTimKiem.Name = "txtTimKiem";
-            this.txtTimKiem.Size = new System.Drawing.Size(215, 20);
-            this.txtTimKiem.TabIndex = 5;
+            this.btnLuu.Location = new System.Drawing.Point(386, 18);
+            this.btnLuu.Name = "btnLuu";
+            this.btnLuu.Size = new System.Drawing.Size(75, 39);
+            this.btnLuu.TabIndex = 3;
+            this.btnLuu.Text = "Lưu";
+            this.btnLuu.UseVisualStyleBackColor = true;
+            this.btnLuu.Click += new System.EventHandler(this.btnLuu_Click);
+            // 
+            // btnXoa
+            // 
+            this.btnXoa.Location = new System.Drawing.Point(467, 19);
+            this.btnXoa.Name = "btnXoa";
+            this.btnXoa.Size = new System.Drawing.Size(75, 39);
+            this.btnXoa.TabIndex = 2;
+            this.btnXoa.Text = "Xóa";
+            this.btnXoa.UseVisualStyleBackColor = true;
+            this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
+            // 
+            // btnSua
+            // 
+            this.btnSua.Location = new System.Drawing.Point(627, 19);
+            this.btnSua.Name = "btnSua";
+            this.btnSua.Size = new System.Drawing.Size(75, 39);
+            this.btnSua.TabIndex = 1;
+            this.btnSua.Text = "Sửa";
+            this.btnSua.UseVisualStyleBackColor = true;
+            this.btnSua.Click += new System.EventHandler(this.btnSua_Click);
+            // 
+            // btnThem
+            // 
+            this.btnThem.Location = new System.Drawing.Point(546, 19);
+            this.btnThem.Name = "btnThem";
+            this.btnThem.Size = new System.Drawing.Size(75, 39);
+            this.btnThem.TabIndex = 0;
+            this.btnThem.Text = "Thêm";
+            this.btnThem.UseVisualStyleBackColor = true;
+            this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
+            // 
+            // dgvLopHoc
+            // 
+            this.dgvLopHoc.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgvLopHoc.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvLopHoc.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.dgvLopHoc.Location = new System.Drawing.Point(0, 198);
+            this.dgvLopHoc.MultiSelect = false;
+            this.dgvLopHoc.Name = "dgvLopHoc";
+            this.dgvLopHoc.ReadOnly = true;
+            this.dgvLopHoc.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dgvLopHoc.Size = new System.Drawing.Size(712, 291);
+            this.dgvLopHoc.TabIndex = 0;
+            this.dgvLopHoc.Click += new System.EventHandler(this.dgvLopHoc_Click);
             // 
             // frmLop
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(849, 489);
+            this.ClientSize = new System.Drawing.Size(712, 489);
             this.Controls.Add(this.gbthem);
             this.Controls.Add(this.cboTenGiaoVien);
             this.Controls.Add(this.cboTenLopTruong);
@@ -224,12 +235,13 @@
             this.Controls.Add(this.SoHS);
             this.Controls.Add(this.TenLop);
             this.Controls.Add(this.IDLop);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.dgvLopHoc);
             this.Name = "frmLop";
             this.Text = "Quản lý lớp học";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.Load += new System.EventHandler(this.frmLop_Load);
             this.gbthem.ResumeLayout(false);
             this.gbthem.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvLopHoc)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -237,7 +249,6 @@
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Label IDLop;
         private System.Windows.Forms.Label TenLop;
         private System.Windows.Forms.Label SoHS;
@@ -255,5 +266,6 @@
         private System.Windows.Forms.Button btnXoa;
         private System.Windows.Forms.Button btnSua;
         private System.Windows.Forms.Button btnThem;
+        private System.Windows.Forms.DataGridView dgvLopHoc;
     }
 }

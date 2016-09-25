@@ -9,3 +9,7 @@ D:\Work_Group\QuanLyTruongHoc\QuanLiTruongHoc\obj\Debug\QuanLiTruongHoc.Properti
 D:\Work_Group\QuanLyTruongHoc\QuanLiTruongHoc\obj\Debug\QuanLiTruongHoc.csproj.GenerateResource.Cache
 D:\Work_Group\QuanLyTruongHoc\QuanLiTruongHoc\obj\Debug\QuanLiTruongHoc.exe
 D:\Work_Group\QuanLyTruongHoc\QuanLiTruongHoc\obj\Debug\QuanLiTruongHoc.pdb
+D:\Work_Group\QuanLyTruongHoc\QuanLiTruongHoc\bin\Debug\DAO.dll
+D:\Work_Group\QuanLyTruongHoc\QuanLiTruongHoc\bin\Debug\DTO.dll
+D:\Work_Group\QuanLyTruongHoc\QuanLiTruongHoc\bin\Debug\DAO.pdb
+D:\Work_Group\QuanLyTruongHoc\QuanLiTruongHoc\bin\Debug\DTO.pdb
