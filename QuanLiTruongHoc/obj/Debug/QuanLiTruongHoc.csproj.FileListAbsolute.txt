@@ -1,1 +1,12 @@
 D:\Data\Học tập\Tai lieu\GitHub\QuanLiTruongHoc\QuanLiTruongHoc\bin\Debug\QuanLiTruongHoc.exe.config
+C:\Users\dau-da\Documents\GitHub\QuanLyTruongHoc\QuanLiTruongHoc\bin\Debug\QuanLiTruongHoc.exe.config
+C:\Users\dau-da\Documents\GitHub\QuanLyTruongHoc\QuanLiTruongHoc\bin\Debug\QuanLiTruongHoc.exe
+C:\Users\dau-da\Documents\GitHub\QuanLyTruongHoc\QuanLiTruongHoc\bin\Debug\QuanLiTruongHoc.pdb
+C:\Users\dau-da\Documents\GitHub\QuanLyTruongHoc\QuanLiTruongHoc\bin\Debug\MdiTabControl.dll
+C:\Users\dau-da\Documents\GitHub\QuanLyTruongHoc\QuanLiTruongHoc\obj\Debug\QuanLiTruongHoc.csprojResolveAssemblyReference.cache
+C:\Users\dau-da\Documents\GitHub\QuanLyTruongHoc\QuanLiTruongHoc\obj\Debug\QuanLiTruongHoc.Form1.resources
+C:\Users\dau-da\Documents\GitHub\QuanLyTruongHoc\QuanLiTruongHoc\obj\Debug\QuanLiTruongHoc.Properties.Resources.resources
+C:\Users\dau-da\Documents\GitHub\QuanLyTruongHoc\QuanLiTruongHoc\obj\Debug\QuanLiTruongHoc.csproj.GenerateResource.Cache
+C:\Users\dau-da\Documents\GitHub\QuanLyTruongHoc\QuanLiTruongHoc\obj\Debug\QuanLiTruongHoc.exe
+C:\Users\dau-da\Documents\GitHub\QuanLyTruongHoc\QuanLiTruongHoc\obj\Debug\QuanLiTruongHoc.pdb
+C:\Users\dau-da\Documents\GitHub\QuanLyTruongHoc\QuanLiTruongHoc\obj\Debug\QuanLiTruongHoc.Form2.resources
