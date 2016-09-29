@@ -1,0 +1,7 @@
+D:\Data\Học tập\Tai lieu\GitHub\QuanLyTruongHoc\DAO\bin\Debug\DAO.dll
+D:\Data\Học tập\Tai lieu\GitHub\QuanLyTruongHoc\DAO\bin\Debug\DAO.pdb
+D:\Data\Học tập\Tai lieu\GitHub\QuanLyTruongHoc\DAO\bin\Debug\DTO.dll
+D:\Data\Học tập\Tai lieu\GitHub\QuanLyTruongHoc\DAO\bin\Debug\DTO.pdb
+D:\Data\Học tập\Tai lieu\GitHub\QuanLyTruongHoc\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
+D:\Data\Học tập\Tai lieu\GitHub\QuanLyTruongHoc\DAO\obj\Debug\DAO.dll
+D:\Data\Học tập\Tai lieu\GitHub\QuanLyTruongHoc\DAO\obj\Debug\DAO.pdb

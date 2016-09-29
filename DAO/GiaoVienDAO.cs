@@ -96,7 +96,14 @@ namespace DAO
                 return false;
             }
         }
-
+        public static DataTable LayThongTinGiaoVienVien(int IDMon)
+        {
+            string sTruyVan = string.Format("Select * From tblGiaoVien a, tblBoMon b where b.IDMon= '{0}' and a.IDMon = b.IDMon ", IDMon);
+            con = DataProvider.KetNoi();
+            DataTable dt = DataProvider.LayDataTable(sTruyVan, con);
+            DataProvider.DongKetNoi(con);
+            return dt;
+        }
 
     }
 }

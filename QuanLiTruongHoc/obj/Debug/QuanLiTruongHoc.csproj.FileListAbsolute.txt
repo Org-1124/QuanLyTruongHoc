@@ -1,1 +1,14 @@
 D:\Data\Học tập\Tai lieu\GitHub\QuanLiTruongHoc\QuanLiTruongHoc\bin\Debug\QuanLiTruongHoc.exe.config
+D:\Data\Học tập\Tai lieu\GitHub\QuanLyTruongHoc\QuanLiTruongHoc\bin\Debug\QuanLiTruongHoc.exe.config
+D:\Data\Học tập\Tai lieu\GitHub\QuanLyTruongHoc\QuanLiTruongHoc\obj\Debug\QuanLiTruongHoc.csprojResolveAssemblyReference.cache
+D:\Data\Học tập\Tai lieu\GitHub\QuanLyTruongHoc\QuanLiTruongHoc\obj\Debug\QuanLiTruongHoc.Form1.resources
+D:\Data\Học tập\Tai lieu\GitHub\QuanLyTruongHoc\QuanLiTruongHoc\obj\Debug\QuanLiTruongHoc.Properties.Resources.resources
+D:\Data\Học tập\Tai lieu\GitHub\QuanLyTruongHoc\QuanLiTruongHoc\obj\Debug\QuanLiTruongHoc.csproj.GenerateResource.Cache
+D:\Data\Học tập\Tai lieu\GitHub\QuanLyTruongHoc\QuanLiTruongHoc\bin\Debug\QuanLiTruongHoc.exe
+D:\Data\Học tập\Tai lieu\GitHub\QuanLyTruongHoc\QuanLiTruongHoc\bin\Debug\QuanLiTruongHoc.pdb
+D:\Data\Học tập\Tai lieu\GitHub\QuanLyTruongHoc\QuanLiTruongHoc\bin\Debug\DAO.dll
+D:\Data\Học tập\Tai lieu\GitHub\QuanLyTruongHoc\QuanLiTruongHoc\bin\Debug\DTO.dll
+D:\Data\Học tập\Tai lieu\GitHub\QuanLyTruongHoc\QuanLiTruongHoc\bin\Debug\DAO.pdb
+D:\Data\Học tập\Tai lieu\GitHub\QuanLyTruongHoc\QuanLiTruongHoc\bin\Debug\DTO.pdb
+D:\Data\Học tập\Tai lieu\GitHub\QuanLyTruongHoc\QuanLiTruongHoc\obj\Debug\QuanLiTruongHoc.exe
+D:\Data\Học tập\Tai lieu\GitHub\QuanLyTruongHoc\QuanLiTruongHoc\obj\Debug\QuanLiTruongHoc.pdb
