@@ -2,8 +2,14 @@ D:\Data\Học tập\Tai lieu\GitHub\QuanLiTruongHoc\QuanLiTruongHoc\bin\Debug\Qu
 C:\Users\DELL PC\Documents\GitHub\QuanLyTruongHoc\QuanLiTruongHoc\bin\Debug\QuanLiTruongHoc.exe.config
 C:\Users\DELL PC\Documents\GitHub\QuanLyTruongHoc\QuanLiTruongHoc\bin\Debug\QuanLiTruongHoc.exe
 C:\Users\DELL PC\Documents\GitHub\QuanLyTruongHoc\QuanLiTruongHoc\bin\Debug\QuanLiTruongHoc.pdb
-C:\Users\DELL PC\Documents\GitHub\QuanLyTruongHoc\QuanLiTruongHoc\obj\Debug\QuanLiTruongHoc.Form1.resources
 C:\Users\DELL PC\Documents\GitHub\QuanLyTruongHoc\QuanLiTruongHoc\obj\Debug\QuanLiTruongHoc.Properties.Resources.resources
 C:\Users\DELL PC\Documents\GitHub\QuanLyTruongHoc\QuanLiTruongHoc\obj\Debug\QuanLiTruongHoc.csproj.GenerateResource.Cache
 C:\Users\DELL PC\Documents\GitHub\QuanLyTruongHoc\QuanLiTruongHoc\obj\Debug\QuanLiTruongHoc.exe
 C:\Users\DELL PC\Documents\GitHub\QuanLyTruongHoc\QuanLiTruongHoc\obj\Debug\QuanLiTruongHoc.pdb
+C:\Users\DELL PC\Documents\GitHub\QuanLyTruongHoc\QuanLiTruongHoc\obj\Debug\QuanLiTruongHoc.csprojResolveAssemblyReference.cache
+C:\Users\DELL PC\Documents\GitHub\QuanLyTruongHoc\QuanLiTruongHoc\obj\Debug\QuanLiTruongHoc.frmMain.resources
+C:\Users\DELL PC\Documents\GitHub\QuanLyTruongHoc\QuanLiTruongHoc\obj\Debug\QuanLiTruongHoc.frmGiaoVien.resources
+C:\Users\DELL PC\Documents\GitHub\QuanLyTruongHoc\QuanLiTruongHoc\bin\Debug\DAO.dll
+C:\Users\DELL PC\Documents\GitHub\QuanLyTruongHoc\QuanLiTruongHoc\bin\Debug\DTO.dll
+C:\Users\DELL PC\Documents\GitHub\QuanLyTruongHoc\QuanLiTruongHoc\bin\Debug\DAO.pdb
+C:\Users\DELL PC\Documents\GitHub\QuanLyTruongHoc\QuanLiTruongHoc\bin\Debug\DTO.pdb
