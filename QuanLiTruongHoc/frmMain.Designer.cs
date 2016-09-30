@@ -1,6 +1,6 @@
 ﻿namespace QuanLiTruongHoc
 {
-    partial class Form1
+    partial class frmMain
     {
         /// <summary>
         /// Required designer variable.
@@ -60,6 +60,7 @@
             this.btngiaovien.Name = "btngiaovien";
             this.btngiaovien.Size = new System.Drawing.Size(69, 20);
             this.btngiaovien.Text = "Giáo Viên";
+            this.btngiaovien.Click += new System.EventHandler(this.btngiaovien_Click);
             // 
             // btnlop
             // 
