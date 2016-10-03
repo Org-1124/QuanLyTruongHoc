@@ -12,3 +12,6 @@ D:\Data\Học tập\Tai lieu\GitHub\QuanLyTruongHoc\QuanLiTruongHoc\bin\Debug\DA
 D:\Data\Học tập\Tai lieu\GitHub\QuanLyTruongHoc\QuanLiTruongHoc\bin\Debug\DTO.pdb
 D:\Data\Học tập\Tai lieu\GitHub\QuanLyTruongHoc\QuanLiTruongHoc\obj\Debug\QuanLiTruongHoc.exe
 D:\Data\Học tập\Tai lieu\GitHub\QuanLyTruongHoc\QuanLiTruongHoc\obj\Debug\QuanLiTruongHoc.pdb
+D:\Data\HocTap\Tai lieu\GitHub\QuanLyTruongHoc\QuanLiTruongHoc\bin\Debug\QuanLiTruongHoc.exe.config
+D:\Data\HocTap\Tai lieu\GitHub\QuanLyTruongHoc\QuanLiTruongHoc\obj\Debug\QuanLiTruongHoc.exe
+D:\Data\HocTap\Tai lieu\GitHub\QuanLyTruongHoc\QuanLiTruongHoc\obj\Debug\QuanLiTruongHoc.pdb

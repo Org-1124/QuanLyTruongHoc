@@ -7,3 +7,7 @@ D:\Data\Học tập\Tai lieu\GitHub\QuanLyTruongHoc\DTO\bin\Debug\DTO.dll
 D:\Data\Học tập\Tai lieu\GitHub\QuanLyTruongHoc\DTO\bin\Debug\DTO.pdb
 D:\Data\Học tập\Tai lieu\GitHub\QuanLyTruongHoc\DTO\obj\Debug\DTO.dll
 D:\Data\Học tập\Tai lieu\GitHub\QuanLyTruongHoc\DTO\obj\Debug\DTO.pdb
+D:\Data\HocTap\Tai lieu\GitHub\QuanLyTruongHoc\DTO\bin\Debug\DTO.dll
+D:\Data\HocTap\Tai lieu\GitHub\QuanLyTruongHoc\DTO\bin\Debug\DTO.pdb
+D:\Data\HocTap\Tai lieu\GitHub\QuanLyTruongHoc\DTO\obj\Debug\DTO.dll
+D:\Data\HocTap\Tai lieu\GitHub\QuanLyTruongHoc\DTO\obj\Debug\DTO.pdb
