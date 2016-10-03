@@ -13,3 +13,9 @@ D:\Work_Group\QuanLyTruongHoc\QuanLiTruongHoc\bin\Debug\DAO.dll
 D:\Work_Group\QuanLyTruongHoc\QuanLiTruongHoc\bin\Debug\DTO.dll
 D:\Work_Group\QuanLyTruongHoc\QuanLiTruongHoc\bin\Debug\DAO.pdb
 D:\Work_Group\QuanLyTruongHoc\QuanLiTruongHoc\bin\Debug\DTO.pdb
+H:\QuanLyTruongHoc\QuanLiTruongHoc\bin\Debug\QuanLiTruongHoc.exe.config
+H:\QuanLyTruongHoc\QuanLiTruongHoc\obj\Debug\QuanLiTruongHoc.exe
+H:\QuanLyTruongHoc\QuanLiTruongHoc\obj\Debug\QuanLiTruongHoc.pdb
+F:\QuanLyTruongHoc\QuanLiTruongHoc\bin\Debug\QuanLiTruongHoc.exe.config
+F:\QuanLyTruongHoc\QuanLiTruongHoc\obj\Debug\QuanLiTruongHoc.exe
+F:\QuanLyTruongHoc\QuanLiTruongHoc\obj\Debug\QuanLiTruongHoc.pdb

@@ -4,3 +4,10 @@ D:\Work_Group\QuanLyTruongHoc\DAO\bin\Debug\DTO.pdb
 D:\Work_Group\QuanLyTruongHoc\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
 D:\Work_Group\QuanLyTruongHoc\DAO\obj\Debug\DAO.dll
 D:\Work_Group\QuanLyTruongHoc\DAO\obj\Debug\DAO.pdb
+H:\QuanLyTruongHoc\DAO\bin\Debug\DAO.dll
+H:\QuanLyTruongHoc\DAO\bin\Debug\DAO.pdb
+H:\QuanLyTruongHoc\DAO\bin\Debug\DTO.dll
+H:\QuanLyTruongHoc\DAO\bin\Debug\DTO.pdb
+H:\QuanLyTruongHoc\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
+H:\QuanLyTruongHoc\DAO\obj\Debug\DAO.dll
+H:\QuanLyTruongHoc\DAO\obj\Debug\DAO.pdb
