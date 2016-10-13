@@ -15,7 +15,7 @@ namespace DAO
         // Load dữ liệu
         public static DataTable LoadDataHocSinh()
         {
-            string sTruyVan = "select * from tblHocSinh";
+            string sTruyVan = "select tblHocSinh.*,tblLop.TenLop from tblHocSinh join tblLop on tblHocSinh.IDLop = tblLop.IDLop";
             con = DataProvider.KetNoi();
             DataTable dt = DataProvider.LayDataTable(sTruyVan, con);
             DataProvider.DongKetNoi(con);
@@ -33,9 +33,7 @@ namespace DAO
         // thêm học sinh
         public static bool ThemHS(HocSinhDTO hs)
         {
-            try
-            {
-                string sTruyVan = string.Format("insert into tblHocSinh values({0},N'{1}',{2},{3},N'{4}',N'{5}',{6})",  hs.IDHocSinh,
+                string sTruyVan = string.Format("insert into tblHocSinh values({0},N'{1}',{2},'{3}',N'{4}',N'{5}',{6})",  hs.IDHocSinh,
                                                                                                                         hs.HoTen,
                                                                                                                         hs.IDLop,
                                                                                                                         hs.NgaySinh,
@@ -44,14 +42,11 @@ namespace DAO
                                                                                                                         hs.SDT);
                 con = DataProvider.KetNoi();
                 DataProvider.ThucThiTruyVan(sTruyVan, con);
+                string s = string.Format("update tblLop set SoLuong=(select COUNT(IDHocSinh) from tblHocSinh where IDLop={0}) where IDLop={0}",hs.IDLop);
+                try { DataProvider.ThucThiTruyVan(s, con); }
+                catch { }
                 DataProvider.DongKetNoi(con);
                 return true;
-            }
-
-            catch
-            {
-                return false;
-            }
         }
         // sửa học sinh
         public static bool SuaHS(HocSinhDTO hs)
@@ -68,6 +63,8 @@ namespace DAO
                                                                                                                        
                 con = DataProvider.KetNoi();
                 DataProvider.ThucThiTruyVan(sTruyVan, con);
+                string s = string.Format("update tblLop set SoLuong=(select COUNT(IDHocSinh) from tblHocSinh where IDLop={0}) where IDLop={0}", hs.IDLop);
+                DataProvider.ThucThiTruyVan(s, con);
                 DataProvider.DongKetNoi(con);
                 return true;
             }
@@ -82,7 +79,7 @@ namespace DAO
         {
             try
             {
-                string sTruyVan = string.Format("delete from tblHocSinh where IDHocSinh = {0}",hs.IDHocSinh);
+                string sTruyVan = string.Format("delete tblHocSinh where IDHocSinh = {0}",hs.IDHocSinh);
                 con = DataProvider.KetNoi();
                 DataProvider.ThucThiTruyVan(sTruyVan, con);
                 DataProvider.DongKetNoi(con);
@@ -92,6 +89,31 @@ namespace DAO
             {
                 return false;
             }
+        }
+
+        public static int IDMax()
+        {
+            string sTruyVan = string.Format("Select max(IDHocSinh) from tblHocSinh");
+            con = DataProvider.KetNoi();
+            DataTable dt = DataProvider.LayDataTable(sTruyVan, con);
+            DataProvider.DongKetNoi(con);
+            try
+            {
+                return int.Parse(dt.Rows[0][0].ToString());
+            }
+            catch
+            {
+                return 0;
+            }
+        }
+
+        public static DataTable TimKiemHocSinh(string HoTen)
+        {
+            string sTruyVan =string.Format("select tblHocSinh.*,tblLop.TenLop from tblHocSinh join tblLop on tblHocSinh.IDLop = tblLop.IDLop where HoTen like N'%{0}%'",HoTen);
+            con = DataProvider.KetNoi();
+            DataTable dt = DataProvider.LayDataTable(sTruyVan, con);
+            DataProvider.DongKetNoi(con);
+            return dt;
         }
     }
 }

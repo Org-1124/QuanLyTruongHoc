@@ -46,6 +46,8 @@ namespace DAO
                                                                                                                         gv.SDT);
                 con = DataProvider.KetNoi();
                 DataProvider.ThucThiTruyVan(sTruyVan, con);
+                string s = string.Format("update tblBoMon set SoLuong=(select COUNT(IDGiaoVien) from tblGiaoVien where IDMon={0}) where IDMon={0}", gv.IDMon);
+                DataProvider.ThucThiTruyVan(s, con);
                 DataProvider.DongKetNoi(con);
                 return true;
             }
@@ -70,6 +72,8 @@ namespace DAO
                                                                                                                                                                               gv.IDGiaoVien);
                 con = DataProvider.KetNoi();
                 DataProvider.ThucThiTruyVan(sTruyVan, con);
+                string s = string.Format("update tblBoMon set SoLuong=(select COUNT(IDGiaoVien) from tblGiaoVien where IDMon={0}) where IDMon={0}", gv.IDMon);
+                DataProvider.ThucThiTruyVan(s, con);
                 DataProvider.DongKetNoi(con);
                 return true;
             }
@@ -165,6 +169,14 @@ namespace DAO
         public static DataTable Search(GiaoVienDTO gv)
         {
             string sTruyVan = string.Format("select * from tblGiaoVien where HoTen like N'%{0}%'", gv.HoTen); ;
+            con = DataProvider.KetNoi();
+            DataTable dt = DataProvider.LayDataTable(sTruyVan, con);
+            DataProvider.DongKetNoi(con);
+            return dt;
+        }
+        public static DataTable LayThongTinGiaoVienVien(int IDMon)
+        {
+            string sTruyVan = string.Format("Select * From tblGiaoVien a, tblBoMon b where b.IDMon= '{0}' and a.IDMon = b.IDMon ", IDMon);
             con = DataProvider.KetNoi();
             DataTable dt = DataProvider.LayDataTable(sTruyVan, con);
             DataProvider.DongKetNoi(con);

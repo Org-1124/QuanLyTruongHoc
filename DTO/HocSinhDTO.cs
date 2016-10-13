@@ -40,9 +40,9 @@ namespace DTO
             set { _GioiTinh = value; }
         }
 
-        private DateTime _NgaySinh;
+        private string _NgaySinh;
 
-        public DateTime NgaySinh
+        public string NgaySinh
         {
             get { return _NgaySinh; }
             set { _NgaySinh = value; }

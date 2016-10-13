@@ -29,14 +29,12 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            QuanLiTruongHoc.QuanLyTruongHocDataSet quanLyTruongHocDataSet1 = new QuanLiTruongHoc.QuanLyTruongHocDataSet();
             this.btnThem = new System.Windows.Forms.Button();
             this.btnSua = new System.Windows.Forms.Button();
             this.btnXoa = new System.Windows.Forms.Button();
             this.btnLưu = new System.Windows.Forms.Button();
-            this.dgvGiaoVien = new System.Windows.Forms.DataGridView();
             this.txtHienthi = new System.Windows.Forms.TextBox();
-            this.bindsGV = new System.Windows.Forms.BindingSource(this.components);
-            this.quanLyTruongHocDataSet = new QuanLiTruongHoc.QuanLyTruongHocDataSet();
             this.txtMaGV = new System.Windows.Forms.TextBox();
             this.txtHoTen = new System.Windows.Forms.TextBox();
             this.txtDiachi = new System.Windows.Forms.TextBox();
@@ -44,7 +42,6 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.cboIDMon = new System.Windows.Forms.ComboBox();
             this.btnRefresh = new System.Windows.Forms.Button();
-            this.btnQuayLai = new System.Windows.Forms.Button();
             this.cboGioiTinh = new System.Windows.Forms.ComboBox();
             this.dtpNgaySinh = new System.Windows.Forms.DateTimePicker();
             this.lblSDT = new System.Windows.Forms.Label();
@@ -55,22 +52,23 @@
             this.lblHoTen = new System.Windows.Forms.Label();
             this.lblMaGV = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.dgvGiaoVien = new System.Windows.Forms.DataGridView();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.lblSearch = new System.Windows.Forms.Label();
             this.btnSearch = new System.Windows.Forms.Button();
             this.txtTimkiem = new System.Windows.Forms.TextBox();
-            this.lblSearch = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.panel4 = new System.Windows.Forms.Panel();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvGiaoVien)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bindsGV)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.quanLyTruongHocDataSet)).BeginInit();
+            this.bindsGV = new System.Windows.Forms.BindingSource(this.components);
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
+            this.panel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvGiaoVien)).BeginInit();
+            this.panel3.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
-            this.panel3.SuspendLayout();
-            this.panel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bindsGV)).BeginInit();
             this.SuspendLayout();
             // 
             // btnThem
@@ -117,40 +115,12 @@
             this.btnLưu.UseVisualStyleBackColor = true;
             this.btnLưu.Click += new System.EventHandler(this.btnLưu_Click);
             // 
-            // dgvGiaoVien
-            // 
-            this.dgvGiaoVien.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dgvGiaoVien.BackgroundColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.dgvGiaoVien.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleVertical;
-            this.dgvGiaoVien.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvGiaoVien.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dgvGiaoVien.Location = new System.Drawing.Point(0, 0);
-            this.dgvGiaoVien.MultiSelect = false;
-            this.dgvGiaoVien.Name = "dgvGiaoVien";
-            this.dgvGiaoVien.ReadOnly = true;
-            this.dgvGiaoVien.RowHeadersVisible = false;
-            this.dgvGiaoVien.RowTemplate.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvGiaoVien.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvGiaoVien.Size = new System.Drawing.Size(989, 299);
-            this.dgvGiaoVien.TabIndex = 5;
-            this.dgvGiaoVien.Click += new System.EventHandler(this.dgvGiaoVien_Click);
-            // 
             // txtHienthi
             // 
             this.txtHienthi.Location = new System.Drawing.Point(781, 534);
             this.txtHienthi.Name = "txtHienthi";
             this.txtHienthi.Size = new System.Drawing.Size(213, 20);
             this.txtHienthi.TabIndex = 7;
-            // 
-            // bindsGV
-            // 
-            this.bindsGV.DataSource = this.quanLyTruongHocDataSet;
-            this.bindsGV.Position = 0;
-            // 
-            // quanLyTruongHocDataSet
-            // 
-            this.quanLyTruongHocDataSet.DataSetName = "QuanLyTruongHocDataSet";
-            this.quanLyTruongHocDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // txtMaGV
             // 
@@ -185,7 +155,6 @@
             // 
             this.groupBox1.Controls.Add(this.cboIDMon);
             this.groupBox1.Controls.Add(this.btnRefresh);
-            this.groupBox1.Controls.Add(this.btnQuayLai);
             this.groupBox1.Controls.Add(this.cboGioiTinh);
             this.groupBox1.Controls.Add(this.dtpNgaySinh);
             this.groupBox1.Controls.Add(this.lblSDT);
@@ -219,24 +188,13 @@
             // btnRefresh
             // 
             this.btnRefresh.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnRefresh.Location = new System.Drawing.Point(763, 153);
+            this.btnRefresh.Location = new System.Drawing.Point(886, 153);
             this.btnRefresh.Name = "btnRefresh";
             this.btnRefresh.Size = new System.Drawing.Size(71, 23);
             this.btnRefresh.TabIndex = 9;
             this.btnRefresh.Text = "LÀM MỚI";
             this.btnRefresh.UseVisualStyleBackColor = true;
             this.btnRefresh.Click += new System.EventHandler(this.btnRefresh_Click);
-            // 
-            // btnQuayLai
-            // 
-            this.btnQuayLai.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnQuayLai.Location = new System.Drawing.Point(882, 152);
-            this.btnQuayLai.Name = "btnQuayLai";
-            this.btnQuayLai.Size = new System.Drawing.Size(75, 23);
-            this.btnQuayLai.TabIndex = 9;
-            this.btnQuayLai.Text = "QUAY LẠI";
-            this.btnQuayLai.UseVisualStyleBackColor = true;
-            this.btnQuayLai.Click += new System.EventHandler(this.btnQuayLai_Click);
             // 
             // cboGioiTinh
             // 
@@ -254,7 +212,7 @@
             // dtpNgaySinh
             // 
             this.dtpNgaySinh.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpNgaySinh.Location = new System.Drawing.Point(86, 107);
+            this.dtpNgaySinh.Location = new System.Drawing.Point(86, 113);
             this.dtpNgaySinh.Name = "dtpNgaySinh";
             this.dtpNgaySinh.Size = new System.Drawing.Size(194, 20);
             this.dtpNgaySinh.TabIndex = 22;
@@ -337,6 +295,57 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Danh sách giáo viên";
             // 
+            // panel4
+            // 
+            this.panel4.Controls.Add(this.dgvGiaoVien);
+            this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel4.Location = new System.Drawing.Point(3, 53);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(989, 299);
+            this.panel4.TabIndex = 26;
+            // 
+            // dgvGiaoVien
+            // 
+            this.dgvGiaoVien.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgvGiaoVien.BackgroundColor = System.Drawing.SystemColors.ActiveCaption;
+            this.dgvGiaoVien.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleVertical;
+            this.dgvGiaoVien.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvGiaoVien.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dgvGiaoVien.Location = new System.Drawing.Point(0, 0);
+            this.dgvGiaoVien.MultiSelect = false;
+            this.dgvGiaoVien.Name = "dgvGiaoVien";
+            this.dgvGiaoVien.ReadOnly = true;
+            this.dgvGiaoVien.RowHeadersVisible = false;
+            this.dgvGiaoVien.RowTemplate.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvGiaoVien.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dgvGiaoVien.Size = new System.Drawing.Size(989, 299);
+            this.dgvGiaoVien.TabIndex = 5;
+            this.dgvGiaoVien.Click += new System.EventHandler(this.dgvGiaoVien_Click);
+            // 
+            // panel3
+            // 
+            this.panel3.Controls.Add(this.lblSearch);
+            this.panel3.Controls.Add(this.btnSearch);
+            this.panel3.Controls.Add(this.txtTimkiem);
+            this.panel3.Controls.Add(this.btnLưu);
+            this.panel3.Controls.Add(this.btnXoa);
+            this.panel3.Controls.Add(this.btnThem);
+            this.panel3.Controls.Add(this.btnSua);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel3.Location = new System.Drawing.Point(3, 16);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(989, 37);
+            this.panel3.TabIndex = 25;
+            // 
+            // lblSearch
+            // 
+            this.lblSearch.AutoSize = true;
+            this.lblSearch.Location = new System.Drawing.Point(16, 13);
+            this.lblSearch.Name = "lblSearch";
+            this.lblSearch.Size = new System.Drawing.Size(49, 13);
+            this.lblSearch.TabIndex = 6;
+            this.lblSearch.Text = "Tìm kiếm";
+            // 
             // btnSearch
             // 
             this.btnSearch.Location = new System.Drawing.Point(283, 8);
@@ -353,15 +362,6 @@
             this.txtTimkiem.Name = "txtTimkiem";
             this.txtTimkiem.Size = new System.Drawing.Size(194, 20);
             this.txtTimkiem.TabIndex = 7;
-            // 
-            // lblSearch
-            // 
-            this.lblSearch.AutoSize = true;
-            this.lblSearch.Location = new System.Drawing.Point(16, 13);
-            this.lblSearch.Name = "lblSearch";
-            this.lblSearch.Size = new System.Drawing.Size(49, 13);
-            this.lblSearch.TabIndex = 6;
-            this.lblSearch.Text = "Tìm kiếm";
             // 
             // panel1
             // 
@@ -381,29 +381,12 @@
             this.panel2.Size = new System.Drawing.Size(995, 355);
             this.panel2.TabIndex = 9;
             // 
-            // panel3
+            // bindsGV
             // 
-            this.panel3.Controls.Add(this.lblSearch);
-            this.panel3.Controls.Add(this.btnSearch);
-            this.panel3.Controls.Add(this.txtTimkiem);
-            this.panel3.Controls.Add(this.btnLưu);
-            this.panel3.Controls.Add(this.btnXoa);
-            this.panel3.Controls.Add(this.btnThem);
-            this.panel3.Controls.Add(this.btnSua);
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel3.Location = new System.Drawing.Point(3, 16);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(989, 37);
-            this.panel3.TabIndex = 25;
-            // 
-            // panel4
-            // 
-            this.panel4.Controls.Add(this.dgvGiaoVien);
-            this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel4.Location = new System.Drawing.Point(3, 53);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(989, 299);
-            this.panel4.TabIndex = 26;
+            quanLyTruongHocDataSet1.DataSetName = "QuanLyTruongHocDataSet";
+            quanLyTruongHocDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            this.bindsGV.DataSource = quanLyTruongHocDataSet1;
+            this.bindsGV.Position = 0;
             // 
             // frmGiaoVien
             // 
@@ -416,17 +399,16 @@
             this.Name = "frmGiaoVien";
             this.Text = "Quản Lý Giáo Viên";
             this.Load += new System.EventHandler(this.frmGiaoVien_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dgvGiaoVien)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bindsGV)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.quanLyTruongHocDataSet)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
-            this.panel1.ResumeLayout(false);
-            this.panel2.ResumeLayout(false);
+            this.panel4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvGiaoVien)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
-            this.panel4.ResumeLayout(false);
+            this.panel1.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.bindsGV)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -438,7 +420,6 @@
         private System.Windows.Forms.Button btnSua;
         private System.Windows.Forms.Button btnXoa;
         private System.Windows.Forms.Button btnLưu;
-        private System.Windows.Forms.DataGridView dgvGiaoVien;
         private System.Windows.Forms.TextBox txtHienthi;
         private System.Windows.Forms.BindingSource bindsGV;
         private System.Windows.Forms.TextBox txtMaGV;
@@ -460,12 +441,12 @@
         private System.Windows.Forms.TextBox txtTimkiem;
         private System.Windows.Forms.Label lblSearch;
         private System.Windows.Forms.ComboBox cboGioiTinh;
-        private System.Windows.Forms.Button btnQuayLai;
         private System.Windows.Forms.Button btnRefresh;
         private System.Windows.Forms.ComboBox cboIDMon;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.DataGridView dgvGiaoVien;
     }
 }
