@@ -33,7 +33,7 @@ namespace DAO
         // thêm học sinh
         public static bool ThemHS(HocSinhDTO hs)
         {
-                string sTruyVan = string.Format("insert into tblHocSinh values({0},N'{1}',{2},'{3}',N'{4}',N'{5}',{6})",  hs.IDHocSinh,
+                string sTruyVan = string.Format("insert into tblHocSinh values({0},N'{1}',{2},{3},N'{4}',N'{5}',{6})",  hs.IDHocSinh,
                                                                                                                         hs.HoTen,
                                                                                                                         hs.IDLop,
                                                                                                                         hs.NgaySinh,

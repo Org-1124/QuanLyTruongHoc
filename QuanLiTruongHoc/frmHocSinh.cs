@@ -196,19 +196,33 @@ namespace QuanLiTruongHoc
 
             }
             HienButton();
+            ReadOnly();
+            Xoatxt();
         }
 
-        private void btnHuy_Click(object sender, EventArgs e)
+        private void Xoatxt()
         {
+            txtIDHocSinh.Text = "";
+            txtIDHocSinh.Text = "";
             txtHoTen.Text = "";
             txtDiaChi.Text = "";
             txtSDT.Text = "";
             txtIDHocSinh.Text = "";
+        }
+        private void btnHuy_Click(object sender, EventArgs e)
+        {
+            Xoatxt();
             HienButton();
+            ReadOnly();
         }
 
         private void btnSua_Click(object sender, EventArgs e)
         {
+            if (txtIDHocSinh.Text == "")
+            {
+                MessageBox.Show("Bạn chưa chọn học sinh");
+                return;
+            }
             lc = LuaChon.Sua;
             AnButton();
             UnReadOnly();
@@ -223,6 +237,7 @@ namespace QuanLiTruongHoc
             }
             lc = LuaChon.Xoa;
             AnButton();
+            ReadOnly();
         }
 
         private void btnTimKiem_Click(object sender, EventArgs e)
@@ -239,6 +254,121 @@ namespace QuanLiTruongHoc
         {
             LoadDuLieu();
             SuaHeaderText();
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void txtSDT_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtDiaChi_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void rdbNu_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void rdbNam_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cboLop_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dtpNgaySinh_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtHoTen_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtIDHocSinh_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void groupBox2_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel4_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void dgvHocSinh_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void panel3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

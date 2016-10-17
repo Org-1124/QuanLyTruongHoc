@@ -78,6 +78,7 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1059, 219);
             this.panel1.TabIndex = 0;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // groupBox1
             // 
@@ -103,6 +104,7 @@
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thông tin học sinh";
+            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // txtSDT
             // 
@@ -112,6 +114,7 @@
             this.txtSDT.Name = "txtSDT";
             this.txtSDT.Size = new System.Drawing.Size(159, 20);
             this.txtSDT.TabIndex = 14;
+            this.txtSDT.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.txtSDT_MaskInputRejected);
             // 
             // label7
             // 
@@ -122,6 +125,7 @@
             this.label7.Size = new System.Drawing.Size(70, 13);
             this.label7.TabIndex = 13;
             this.label7.Text = "Số điện thoại";
+            this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // label6
             // 
@@ -132,6 +136,7 @@
             this.label6.Size = new System.Drawing.Size(40, 13);
             this.label6.TabIndex = 12;
             this.label6.Text = "Địa chỉ";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // txtDiaChi
             // 
@@ -141,6 +146,7 @@
             this.txtDiaChi.ReadOnly = true;
             this.txtDiaChi.Size = new System.Drawing.Size(159, 20);
             this.txtDiaChi.TabIndex = 11;
+            this.txtDiaChi.TextChanged += new System.EventHandler(this.txtDiaChi_TextChanged);
             // 
             // label5
             // 
@@ -151,6 +157,7 @@
             this.label5.Size = new System.Drawing.Size(47, 13);
             this.label5.TabIndex = 10;
             this.label5.Text = "Giới tính";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // rdbNu
             // 
@@ -163,6 +170,7 @@
             this.rdbNu.TabStop = true;
             this.rdbNu.Text = "Nữ";
             this.rdbNu.UseVisualStyleBackColor = true;
+            this.rdbNu.CheckedChanged += new System.EventHandler(this.rdbNu_CheckedChanged);
             // 
             // rdbNam
             // 
@@ -175,6 +183,7 @@
             this.rdbNam.TabStop = true;
             this.rdbNam.Text = "Nam";
             this.rdbNam.UseVisualStyleBackColor = true;
+            this.rdbNam.CheckedChanged += new System.EventHandler(this.rdbNam_CheckedChanged);
             // 
             // cboLop
             // 
@@ -184,6 +193,7 @@
             this.cboLop.Name = "cboLop";
             this.cboLop.Size = new System.Drawing.Size(159, 21);
             this.cboLop.TabIndex = 7;
+            this.cboLop.SelectedIndexChanged += new System.EventHandler(this.cboLop_SelectedIndexChanged);
             // 
             // label4
             // 
@@ -193,6 +203,7 @@
             this.label4.Size = new System.Drawing.Size(25, 13);
             this.label4.TabIndex = 6;
             this.label4.Text = "Lớp";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // dtpNgaySinh
             // 
@@ -201,6 +212,7 @@
             this.dtpNgaySinh.Name = "dtpNgaySinh";
             this.dtpNgaySinh.Size = new System.Drawing.Size(159, 20);
             this.dtpNgaySinh.TabIndex = 5;
+            this.dtpNgaySinh.ValueChanged += new System.EventHandler(this.dtpNgaySinh_ValueChanged);
             // 
             // label3
             // 
@@ -210,6 +222,7 @@
             this.label3.Size = new System.Drawing.Size(54, 13);
             this.label3.TabIndex = 4;
             this.label3.Text = "Ngày sinh";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // txtHoTen
             // 
@@ -218,6 +231,7 @@
             this.txtHoTen.ReadOnly = true;
             this.txtHoTen.Size = new System.Drawing.Size(159, 20);
             this.txtHoTen.TabIndex = 3;
+            this.txtHoTen.TextChanged += new System.EventHandler(this.txtHoTen_TextChanged);
             // 
             // label2
             // 
@@ -227,6 +241,7 @@
             this.label2.Size = new System.Drawing.Size(39, 13);
             this.label2.TabIndex = 2;
             this.label2.Text = "Họ tên";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // txtIDHocSinh
             // 
@@ -235,6 +250,7 @@
             this.txtIDHocSinh.ReadOnly = true;
             this.txtIDHocSinh.Size = new System.Drawing.Size(159, 20);
             this.txtIDHocSinh.TabIndex = 1;
+            this.txtIDHocSinh.TextChanged += new System.EventHandler(this.txtIDHocSinh_TextChanged);
             // 
             // label1
             // 
@@ -244,6 +260,7 @@
             this.label1.Size = new System.Drawing.Size(65, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "Mã học sinh";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // panel2
             // 
@@ -253,6 +270,7 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1059, 327);
             this.panel2.TabIndex = 1;
+            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
             // groupBox2
             // 
@@ -265,6 +283,7 @@
             this.groupBox2.TabIndex = 0;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Danh sách nhân viên";
+            this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
             // 
             // panel4
             // 
@@ -274,6 +293,7 @@
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(1053, 270);
             this.panel4.TabIndex = 1;
+            this.panel4.Paint += new System.Windows.Forms.PaintEventHandler(this.panel4_Paint);
             // 
             // dgvHocSinh
             // 
@@ -318,6 +338,7 @@
             this.dgvHocSinh.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvHocSinh.Size = new System.Drawing.Size(1053, 270);
             this.dgvHocSinh.TabIndex = 0;
+            this.dgvHocSinh.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvHocSinh_CellContentClick);
             this.dgvHocSinh.Click += new System.EventHandler(this.dgvHocSinh_Click);
             // 
             // panel3
@@ -335,6 +356,7 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(1053, 38);
             this.panel3.TabIndex = 0;
+            this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
             // 
             // btnHuy
             // 
@@ -419,6 +441,7 @@
             this.label8.Size = new System.Drawing.Size(49, 13);
             this.label8.TabIndex = 0;
             this.label8.Text = "Tìm kiếm";
+            this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
             // frmHocSinh
             // 
