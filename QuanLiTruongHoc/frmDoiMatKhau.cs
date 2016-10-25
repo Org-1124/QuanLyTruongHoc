@@ -32,7 +32,7 @@ namespace QuanLiTruongHoc
                 {
                     tk.TaiKhoan = txttk.Text;
                     tk.MatKhau = txtmk.Text;
-                    TaiKhoanDAO.ThemTK(tk);
+                    TaiKhoanDAO.DoiMK(tk);
                     MessageBox.Show("Đổi mật khẩu thành công");
 
                 }

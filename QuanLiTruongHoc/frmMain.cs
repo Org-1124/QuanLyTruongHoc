@@ -14,6 +14,7 @@ namespace QuanLiTruongHoc
 {
     public partial class frmMain : Form
     {
+        TabPage tabPage6 = new TabPage();
         TabPage tabPage2 = new TabPage();
         TabPage tabPage3 = new TabPage();
         TabPage tabPage4 = new TabPage();
@@ -29,6 +30,7 @@ namespace QuanLiTruongHoc
             tabControl1.TabPages.Remove(tabPage3);
             tabControl1.TabPages.Remove(tabPage4);
             tabControl1.TabPages.Remove(tabPage5);
+            tabControl1.TabPages.Remove(tabPage6);
         }
         private void btnhocsinh_Click(object sender, EventArgs e)
         {
@@ -117,6 +119,7 @@ namespace QuanLiTruongHoc
             btngiaovien.Enabled = false;
             btnbomon.Enabled = false;
             btntaikhoan.Enabled = false;
+            btntrogiup.Enabled = false;
         }
         public void hien()
         {
@@ -125,6 +128,20 @@ namespace QuanLiTruongHoc
             btngiaovien.Enabled = true;
             btnbomon.Enabled = true;
             btntaikhoan.Enabled = true;
+            btntrogiup.Enabled = true;
+        }
+
+        private void trợGiúpToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            romove();
+            frmTroGiup f = new frmTroGiup();
+            f.TopLevel = false;
+            f.FormBorderStyle = FormBorderStyle.None;
+            f.Dock = DockStyle.Fill;
+            tabPage6.Controls.Add(f);
+            f.Visible = true;
+            tabPage6.Text = "Trợ Giúp";
+            tabControl1.TabPages.Add(tabPage6);
         }
     }
 }

@@ -42,7 +42,7 @@ namespace DAO
         {
             try
             {
-                string sTruyVan = string.Format("update tblTaiKhoan set TaiKhoan='{0}', MatKhau='{1}' where TaiKhoan='{3}'", tk.TaiKhoan,
+                string sTruyVan = string.Format("update tblTaiKhoan set TaiKhoan='{0}', MatKhau='{1}' where TaiKhoan='{2}'", tk.TaiKhoan,
                                                                                                                              tk.MatKhau,
                                                                                                                              tk.TaiKhoan);
                 con = DataProvider.KetNoi();

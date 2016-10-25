@@ -45,6 +45,7 @@
             this.txtTaiKhoan = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.btntrogiup = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -58,7 +59,8 @@
             this.btnlop,
             this.btngiaovien,
             this.btnbomon,
-            this.btntaikhoan});
+            this.btntaikhoan,
+            this.btntrogiup});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(1054, 24);
@@ -212,6 +214,13 @@
             this.label1.TabIndex = 11;
             this.label1.Text = "Tài Khoản";
             // 
+            // btntrogiup
+            // 
+            this.btntrogiup.Name = "btntrogiup";
+            this.btntrogiup.Size = new System.Drawing.Size(64, 20);
+            this.btntrogiup.Text = "Trợ Giúp";
+            this.btntrogiup.Click += new System.EventHandler(this.trợGiúpToolStripMenuItem_Click);
+            // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -251,6 +260,7 @@
         private System.Windows.Forms.TextBox txtTaiKhoan;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.ToolStripMenuItem btntrogiup;
 
     }
 }
