@@ -225,6 +225,7 @@
             this.txttimkiem.Name = "txttimkiem";
             this.txttimkiem.Size = new System.Drawing.Size(171, 20);
             this.txttimkiem.TabIndex = 20;
+            this.txttimkiem.TextChanged += new System.EventHandler(this.txttimkiem_TextChanged);
             this.txttimkiem.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txttimkiem_KeyDown_1);
             // 
             // dgvBoMon

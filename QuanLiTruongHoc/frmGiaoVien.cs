@@ -261,9 +261,13 @@ namespace QuanLiTruongHoc
 
         private void btnSearch_Click(object sender, EventArgs e)
         {
-            GiaoVienDTO gv = new GiaoVienDTO();
-            gv.HoTen = txtTimkiem.Text;
-            dgvGiaoVien.DataSource = GiaoVienDAO.Search(gv);
+            dgvGiaoVien.DataSource = GiaoVienDAO.Search(txtTimkiem.Text);
+        }
+
+
+        private void txtTimkiem_TextChanged(object sender, EventArgs e)
+        {
+            btnSearch_Click(sender, e);
         }
     }
 }

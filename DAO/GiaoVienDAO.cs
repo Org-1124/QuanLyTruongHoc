@@ -166,9 +166,9 @@ namespace DAO
         // neu ma so dang truoc kem so dang sau !=1 donvi thi tao cai ma so do +1
         // vong lap for chay tu 0-> n-2;
 
-        public static DataTable Search(GiaoVienDTO gv)
+        public static DataTable Search(string gv)
         {
-            string sTruyVan = string.Format("select a.MaHDNhap,NgayNhap,TenNhaCC,DiaChi,SDT,TongTien from tblGiaoVien where HoTen like N'%{0}%'", gv.HoTen); ;
+            string sTruyVan = string.Format("select * from tblGiaoVien where HoTen like N'%{0}%'", gv); ;
             con = DataProvider.KetNoi();
             DataTable dt = DataProvider.LayDataTable(sTruyVan, con);
             DataProvider.DongKetNoi(con);

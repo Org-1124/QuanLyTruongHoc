@@ -362,6 +362,7 @@
             this.txtTimkiem.Name = "txtTimkiem";
             this.txtTimkiem.Size = new System.Drawing.Size(194, 20);
             this.txtTimkiem.TabIndex = 7;
+            this.txtTimkiem.TextChanged += new System.EventHandler(this.txtTimkiem_TextChanged);
             // 
             // panel1
             // 

@@ -173,5 +173,10 @@ namespace QuanLiTruongHoc
                 dgvBoMon.DataSource = BoMonDAO.SearchBM(txttimkiem.Text);
             }
         }
+
+        private void txttimkiem_TextChanged(object sender, EventArgs e)
+        {
+            btnTimKiem_Click(sender, e);
+        }
     }
 }
