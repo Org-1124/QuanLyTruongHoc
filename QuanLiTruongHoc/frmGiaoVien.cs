@@ -265,7 +265,5 @@ namespace QuanLiTruongHoc
             gv.HoTen = txtTimkiem.Text;
             dgvGiaoVien.DataSource = GiaoVienDAO.Search(gv);
         }
-
-
     }
 }

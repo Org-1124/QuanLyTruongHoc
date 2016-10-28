@@ -168,7 +168,7 @@ namespace DAO
 
         public static DataTable Search(GiaoVienDTO gv)
         {
-            string sTruyVan = string.Format("select * from tblGiaoVien where HoTen like N'%{0}%'", gv.HoTen); ;
+            string sTruyVan = string.Format("select a.MaHDNhap,NgayNhap,TenNhaCC,DiaChi,SDT,TongTien from tblGiaoVien where HoTen like N'%{0}%'", gv.HoTen); ;
             con = DataProvider.KetNoi();
             DataTable dt = DataProvider.LayDataTable(sTruyVan, con);
             DataProvider.DongKetNoi(con);
