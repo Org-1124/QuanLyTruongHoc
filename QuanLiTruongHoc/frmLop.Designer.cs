@@ -245,6 +245,7 @@
             // 
             // dgvLopHoc
             // 
+            this.dgvLopHoc.AllowUserToAddRows = false;
             this.dgvLopHoc.AllowUserToResizeRows = false;
             this.dgvLopHoc.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvLopHoc.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;

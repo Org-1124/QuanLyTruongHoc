@@ -109,7 +109,7 @@
             // txtSDT
             // 
             this.txtSDT.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtSDT.Location = new System.Drawing.Point(869, 128);
+            this.txtSDT.Location = new System.Drawing.Point(783, 113);
             this.txtSDT.Mask = "00000000000";
             this.txtSDT.Name = "txtSDT";
             this.txtSDT.Size = new System.Drawing.Size(159, 20);
@@ -120,7 +120,7 @@
             // 
             this.label7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(762, 131);
+            this.label7.Location = new System.Drawing.Point(676, 116);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(70, 13);
             this.label7.TabIndex = 13;
@@ -131,7 +131,7 @@
             // 
             this.label6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(762, 89);
+            this.label6.Location = new System.Drawing.Point(676, 74);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(40, 13);
             this.label6.TabIndex = 12;
@@ -141,7 +141,7 @@
             // txtDiaChi
             // 
             this.txtDiaChi.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtDiaChi.Location = new System.Drawing.Point(869, 86);
+            this.txtDiaChi.Location = new System.Drawing.Point(783, 71);
             this.txtDiaChi.Name = "txtDiaChi";
             this.txtDiaChi.ReadOnly = true;
             this.txtDiaChi.Size = new System.Drawing.Size(159, 20);
@@ -152,7 +152,7 @@
             // 
             this.label5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(762, 50);
+            this.label5.Location = new System.Drawing.Point(676, 35);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(47, 13);
             this.label5.TabIndex = 10;
@@ -163,7 +163,7 @@
             // 
             this.rdbNu.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.rdbNu.AutoSize = true;
-            this.rdbNu.Location = new System.Drawing.Point(989, 46);
+            this.rdbNu.Location = new System.Drawing.Point(903, 31);
             this.rdbNu.Name = "rdbNu";
             this.rdbNu.Size = new System.Drawing.Size(39, 17);
             this.rdbNu.TabIndex = 9;
@@ -176,7 +176,7 @@
             // 
             this.rdbNam.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.rdbNam.AutoSize = true;
-            this.rdbNam.Location = new System.Drawing.Point(869, 47);
+            this.rdbNam.Location = new System.Drawing.Point(783, 32);
             this.rdbNam.Name = "rdbNam";
             this.rdbNam.Size = new System.Drawing.Size(47, 17);
             this.rdbNam.TabIndex = 8;
@@ -189,7 +189,7 @@
             // 
             this.cboLop.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboLop.FormattingEnabled = true;
-            this.cboLop.Location = new System.Drawing.Point(83, 166);
+            this.cboLop.Location = new System.Drawing.Point(151, 151);
             this.cboLop.Name = "cboLop";
             this.cboLop.Size = new System.Drawing.Size(159, 21);
             this.cboLop.TabIndex = 7;
@@ -198,7 +198,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(12, 169);
+            this.label4.Location = new System.Drawing.Point(80, 154);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(25, 13);
             this.label4.TabIndex = 6;
@@ -208,7 +208,7 @@
             // dtpNgaySinh
             // 
             this.dtpNgaySinh.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpNgaySinh.Location = new System.Drawing.Point(83, 125);
+            this.dtpNgaySinh.Location = new System.Drawing.Point(151, 110);
             this.dtpNgaySinh.Name = "dtpNgaySinh";
             this.dtpNgaySinh.Size = new System.Drawing.Size(159, 20);
             this.dtpNgaySinh.TabIndex = 5;
@@ -217,7 +217,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(12, 131);
+            this.label3.Location = new System.Drawing.Point(80, 116);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(54, 13);
             this.label3.TabIndex = 4;
@@ -226,7 +226,7 @@
             // 
             // txtHoTen
             // 
-            this.txtHoTen.Location = new System.Drawing.Point(83, 86);
+            this.txtHoTen.Location = new System.Drawing.Point(151, 71);
             this.txtHoTen.Name = "txtHoTen";
             this.txtHoTen.ReadOnly = true;
             this.txtHoTen.Size = new System.Drawing.Size(159, 20);
@@ -236,7 +236,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 89);
+            this.label2.Location = new System.Drawing.Point(80, 74);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(39, 13);
             this.label2.TabIndex = 2;
@@ -245,7 +245,7 @@
             // 
             // txtIDHocSinh
             // 
-            this.txtIDHocSinh.Location = new System.Drawing.Point(83, 47);
+            this.txtIDHocSinh.Location = new System.Drawing.Point(151, 32);
             this.txtIDHocSinh.Name = "txtIDHocSinh";
             this.txtIDHocSinh.ReadOnly = true;
             this.txtIDHocSinh.Size = new System.Drawing.Size(159, 20);
@@ -255,7 +255,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 50);
+            this.label1.Location = new System.Drawing.Point(80, 35);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(65, 13);
             this.label1.TabIndex = 0;
@@ -282,7 +282,7 @@
             this.groupBox2.Size = new System.Drawing.Size(1059, 327);
             this.groupBox2.TabIndex = 0;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Danh sách nhân viên";
+            this.groupBox2.Text = "Danh sách học sinh";
             this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
             // 
             // panel4
@@ -297,6 +297,7 @@
             // 
             // dgvHocSinh
             // 
+            this.dgvHocSinh.AllowUserToAddRows = false;
             this.dgvHocSinh.AllowUserToResizeRows = false;
             this.dgvHocSinh.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvHocSinh.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;

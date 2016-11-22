@@ -11,3 +11,8 @@ C:\Users\lehaisonmath\Documents\GitHub\QuanLyTruongHoc\DTO\bin\Debug\DTO.pdb
 C:\Users\lehaisonmath\Documents\GitHub\QuanLyTruongHoc\DTO\obj\Debug\DTO.csprojResolveAssemblyReference.cache
 C:\Users\lehaisonmath\Documents\GitHub\QuanLyTruongHoc\DTO\obj\Debug\DTO.dll
 C:\Users\lehaisonmath\Documents\GitHub\QuanLyTruongHoc\DTO\obj\Debug\DTO.pdb
+D:\QuanLyTruongHoc\DTO\bin\Debug\DTO.dll
+D:\QuanLyTruongHoc\DTO\bin\Debug\DTO.pdb
+D:\QuanLyTruongHoc\DTO\obj\Debug\DTO.csprojResolveAssemblyReference.cache
+D:\QuanLyTruongHoc\DTO\obj\Debug\DTO.dll
+D:\QuanLyTruongHoc\DTO\obj\Debug\DTO.pdb

@@ -19,3 +19,10 @@ C:\Users\lehaisonmath\Documents\GitHub\QuanLyTruongHoc\DAO\bin\Debug\DTO.pdb
 C:\Users\lehaisonmath\Documents\GitHub\QuanLyTruongHoc\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
 C:\Users\lehaisonmath\Documents\GitHub\QuanLyTruongHoc\DAO\obj\Debug\DAO.dll
 C:\Users\lehaisonmath\Documents\GitHub\QuanLyTruongHoc\DAO\obj\Debug\DAO.pdb
+D:\QuanLyTruongHoc\DAO\bin\Debug\DAO.dll
+D:\QuanLyTruongHoc\DAO\bin\Debug\DAO.pdb
+D:\QuanLyTruongHoc\DAO\bin\Debug\DTO.dll
+D:\QuanLyTruongHoc\DAO\bin\Debug\DTO.pdb
+D:\QuanLyTruongHoc\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
+D:\QuanLyTruongHoc\DAO\obj\Debug\DAO.dll
+D:\QuanLyTruongHoc\DAO\obj\Debug\DAO.pdb

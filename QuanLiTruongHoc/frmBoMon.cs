@@ -97,7 +97,8 @@ namespace QuanLiTruongHoc
             BoMonDTO bm = new BoMonDTO();
             bm.IDMon = int.Parse(txtIdMon.Text);
             bm.TenMon = txtTenMon.Text;
-            bm.IDTruongBoMon = (int)cboTruongBM.SelectedValue;
+            try { bm.IDTruongBoMon = (int)cboTruongBM.SelectedValue; }
+            catch { }
             bm.SoLuong = int.Parse(txtSoluong.Text);
             if (luu == 0)
             {

@@ -118,6 +118,7 @@
             // 
             this.txtIdMon.Location = new System.Drawing.Point(153, 38);
             this.txtIdMon.Name = "txtIdMon";
+            this.txtIdMon.ReadOnly = true;
             this.txtIdMon.Size = new System.Drawing.Size(104, 20);
             this.txtIdMon.TabIndex = 9;
             // 
@@ -230,6 +231,7 @@
             // 
             // dgvBoMon
             // 
+            this.dgvBoMon.AllowUserToAddRows = false;
             this.dgvBoMon.AllowUserToResizeRows = false;
             dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.dgvBoMon.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;

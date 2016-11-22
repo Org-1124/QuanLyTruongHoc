@@ -306,6 +306,7 @@
             // 
             // dgvGiaoVien
             // 
+            this.dgvGiaoVien.AllowUserToAddRows = false;
             this.dgvGiaoVien.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvGiaoVien.BackgroundColor = System.Drawing.SystemColors.ActiveCaption;
             this.dgvGiaoVien.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleVertical;
